@@ -10,11 +10,7 @@
 
     <h2>Tambah Buku</h2>
 
-<p style="color:red">
-{{ route('buku.store') }}
-</p>
-
-<form action="{{ route('buku.store') }}" method="POST">
+    <form action="{{ route('buku.store') }}" method="POST">
         @csrf
 
         <div class="mb-3">
